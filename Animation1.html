@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ani-1</title>
+    <style type="text/css">
+        @keyframes myAnimation {
+            0%{background-color: red; left: 0; top: 0;}
+            25%{background-color: yellow; left: 300px; top: 0;}
+            50%{background-color: blue; left: 300px; top: 200px;}
+            75%{background-color: rgb(61, 209, 2); left: 0; top: 200px;}
+            100%{background-color:red; left: 0; top: 0;} 
+        }
+        #dv1{
+            position: relative;
+            animation-name: myAnimation;
+            animation-duration: 4s;
+            /* animation-delay: 3s; */
+            animation-iteration-count: infinite;
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            box-shadow: 3px 3px 3px #777;
+        }
+    </style>
+</head>
+<body>
+    <div id="dv1">
+
+    </div>
+</body>
+</html>
